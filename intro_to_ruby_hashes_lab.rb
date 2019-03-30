@@ -60,18 +60,19 @@ def monopoly_with_fourth_tier
 	                         :two_pieces_owened => 50,
 	                         :three_pieces_owened => 100,
 	                         :four_pieces_owened => 200
-	    },
+	    }, #closes rent_in_dollars
+	   
 	    :names => {:reading_railroad => {"mortgage_value"=>"$100"},
 	               :pennsylvania_railroad => {"mortgage_value"=>"$200"},
 	               :b_and_o_railroad => {"mortgage_value"=>"$400"},
 	               :shortline => {"mortgage_value"=>"$800"}
 	    
-	    }
+	    }#closes names
 	              
 	    
 	    
-	  }
-	}
+	  }#closes railroads
+	}#closes monopoly
 
 
 end
